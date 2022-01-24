@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1128C50F278EF54300A04991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128C50E278EF54300A04991 /* AppDelegate.swift */; };
+		1128C511278EF54300A04991 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128C510278EF54300A04991 /* SceneDelegate.swift */; };
+		1128C513278EF54300A04991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128C512278EF54300A04991 /* ViewController.swift */; };
+		1128C516278EF54300A04991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1128C514278EF54300A04991 /* Main.storyboard */; };
+		1128C518278EF54600A04991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1128C517278EF54600A04991 /* Assets.xcassets */; };
+		1128C51B278EF54600A04991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1128C519278EF54600A04991 /* LaunchScreen.storyboard */; };
+		1128C526278EF54700A04991 /* Say__Tahmini__AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128C525278EF54700A04991 /* Say__Tahmini__AppTests.swift */; };
+		1128C530278EF54700A04991 /* Say__Tahmini__AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128C52F278EF54700A04991 /* Say__Tahmini__AppUITests.swift */; };
+		1128C532278EF54700A04991 /* Say__Tahmini__AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128C531278EF54700A04991 /* Say__Tahmini__AppUITestsLaunchTests.swift */; };
+		1128C53F278EF5A600A04991 /* ForecastSceen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128C53E278EF5A600A04991 /* ForecastSceen.swift */; };
+		1128C541278EF5BB00A04991 /* ResultSceen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128C540278EF5BB00A04991 /* ResultSceen.swift */; };
+		1128C543278EF93900A04991 /* README.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128C542278EF93900A04991 /* README.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1128C522278EF54700A04991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1128C503278EF54300A04991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1128C50A278EF54300A04991;
+			remoteInfo = "Sayı Tahmini  App";
+		};
+		1128C52C278EF54700A04991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1128C503278EF54300A04991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1128C50A278EF54300A04991;
+			remoteInfo = "Sayı Tahmini  App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1128C50B278EF54300A04991 /* Sayı Tahmini  App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sayı Tahmini  App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1128C50E278EF54300A04991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1128C510278EF54300A04991 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1128C512278EF54300A04991 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1128C515278EF54300A04991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1128C517278EF54600A04991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1128C51A278EF54600A04991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1128C51C278EF54600A04991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1128C521278EF54700A04991 /* Sayı Tahmini  AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sayı Tahmini  AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1128C525278EF54700A04991 /* Say__Tahmini__AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Say__Tahmini__AppTests.swift; sourceTree = "<group>"; };
+		1128C52B278EF54700A04991 /* Sayı Tahmini  AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sayı Tahmini  AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1128C52F278EF54700A04991 /* Say__Tahmini__AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Say__Tahmini__AppUITests.swift; sourceTree = "<group>"; };
+		1128C531278EF54700A04991 /* Say__Tahmini__AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Say__Tahmini__AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1128C53E278EF5A600A04991 /* ForecastSceen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastSceen.swift; sourceTree = "<group>"; };
+		1128C540278EF5BB00A04991 /* ResultSceen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSceen.swift; sourceTree = "<group>"; };
+		1128C542278EF93900A04991 /* README.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1128C508278EF54300A04991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1128C51E278EF54700A04991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1128C528278EF54700A04991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1128C502278EF54300A04991 = {
+			isa = PBXGroup;
+			children = (
+				1128C50D278EF54300A04991 /* Sayı Tahmini  App */,
+				1128C524278EF54700A04991 /* Sayı Tahmini  AppTests */,
+				1128C52E278EF54700A04991 /* Sayı Tahmini  AppUITests */,
+				1128C50C278EF54300A04991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1128C50C278EF54300A04991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1128C50B278EF54300A04991 /* Sayı Tahmini  App.app */,
+				1128C521278EF54700A04991 /* Sayı Tahmini  AppTests.xctest */,
+				1128C52B278EF54700A04991 /* Sayı Tahmini  AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1128C50D278EF54300A04991 /* Sayı Tahmini  App */ = {
+			isa = PBXGroup;
+			children = (
+				1128C50E278EF54300A04991 /* AppDelegate.swift */,
+				1128C510278EF54300A04991 /* SceneDelegate.swift */,
+				1128C512278EF54300A04991 /* ViewController.swift */,
+				1128C514278EF54300A04991 /* Main.storyboard */,
+				1128C517278EF54600A04991 /* Assets.xcassets */,
+				1128C519278EF54600A04991 /* LaunchScreen.storyboard */,
+				1128C51C278EF54600A04991 /* Info.plist */,
+				1128C53E278EF5A600A04991 /* ForecastSceen.swift */,
+				1128C540278EF5BB00A04991 /* ResultSceen.swift */,
+				1128C542278EF93900A04991 /* README.swift */,
+			);
+			path = "Sayı Tahmini  App";
+			sourceTree = "<group>";
+		};
+		1128C524278EF54700A04991 /* Sayı Tahmini  AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1128C525278EF54700A04991 /* Say__Tahmini__AppTests.swift */,
+			);
+			path = "Sayı Tahmini  AppTests";
+			sourceTree = "<group>";
+		};
+		1128C52E278EF54700A04991 /* Sayı Tahmini  AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1128C52F278EF54700A04991 /* Say__Tahmini__AppUITests.swift */,
+				1128C531278EF54700A04991 /* Say__Tahmini__AppUITestsLaunchTests.swift */,
+			);
+			path = "Sayı Tahmini  AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1128C50A278EF54300A04991 /* Sayı Tahmini  App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1128C535278EF54700A04991 /* Build configuration list for PBXNativeTarget "Sayı Tahmini  App" */;
+			buildPhases = (
+				1128C507278EF54300A04991 /* Sources */,
+				1128C508278EF54300A04991 /* Frameworks */,
+				1128C509278EF54300A04991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sayı Tahmini  App";
+			productName = "Sayı Tahmini  App";
+			productReference = 1128C50B278EF54300A04991 /* Sayı Tahmini  App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1128C520278EF54700A04991 /* Sayı Tahmini  AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1128C538278EF54700A04991 /* Build configuration list for PBXNativeTarget "Sayı Tahmini  AppTests" */;
+			buildPhases = (
+				1128C51D278EF54700A04991 /* Sources */,
+				1128C51E278EF54700A04991 /* Frameworks */,
+				1128C51F278EF54700A04991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1128C523278EF54700A04991 /* PBXTargetDependency */,
+			);
+			name = "Sayı Tahmini  AppTests";
+			productName = "Sayı Tahmini  AppTests";
+			productReference = 1128C521278EF54700A04991 /* Sayı Tahmini  AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1128C52A278EF54700A04991 /* Sayı Tahmini  AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1128C53B278EF54700A04991 /* Build configuration list for PBXNativeTarget "Sayı Tahmini  AppUITests" */;
+			buildPhases = (
+				1128C527278EF54700A04991 /* Sources */,
+				1128C528278EF54700A04991 /* Frameworks */,
+				1128C529278EF54700A04991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1128C52D278EF54700A04991 /* PBXTargetDependency */,
+			);
+			name = "Sayı Tahmini  AppUITests";
+			productName = "Sayı Tahmini  AppUITests";
+			productReference = 1128C52B278EF54700A04991 /* Sayı Tahmini  AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1128C503278EF54300A04991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1128C50A278EF54300A04991 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					1128C520278EF54700A04991 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1128C50A278EF54300A04991;
+					};
+					1128C52A278EF54700A04991 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1128C50A278EF54300A04991;
+					};
+				};
+			};
+			buildConfigurationList = 1128C506278EF54300A04991 /* Build configuration list for PBXProject "Sayı Tahmini  App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1128C502278EF54300A04991;
+			productRefGroup = 1128C50C278EF54300A04991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1128C50A278EF54300A04991 /* Sayı Tahmini  App */,
+				1128C520278EF54700A04991 /* Sayı Tahmini  AppTests */,
+				1128C52A278EF54700A04991 /* Sayı Tahmini  AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1128C509278EF54300A04991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1128C51B278EF54600A04991 /* LaunchScreen.storyboard in Resources */,
+				1128C518278EF54600A04991 /* Assets.xcassets in Resources */,
+				1128C516278EF54300A04991 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1128C51F278EF54700A04991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1128C529278EF54700A04991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1128C507278EF54300A04991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1128C541278EF5BB00A04991 /* ResultSceen.swift in Sources */,
+				1128C513278EF54300A04991 /* ViewController.swift in Sources */,
+				1128C53F278EF5A600A04991 /* ForecastSceen.swift in Sources */,
+				1128C50F278EF54300A04991 /* AppDelegate.swift in Sources */,
+				1128C511278EF54300A04991 /* SceneDelegate.swift in Sources */,
+				1128C543278EF93900A04991 /* README.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1128C51D278EF54700A04991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1128C526278EF54700A04991 /* Say__Tahmini__AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1128C527278EF54700A04991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1128C530278EF54700A04991 /* Say__Tahmini__AppUITests.swift in Sources */,
+				1128C532278EF54700A04991 /* Say__Tahmini__AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1128C523278EF54700A04991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1128C50A278EF54300A04991 /* Sayı Tahmini  App */;
+			targetProxy = 1128C522278EF54700A04991 /* PBXContainerItemProxy */;
+		};
+		1128C52D278EF54700A04991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1128C50A278EF54300A04991 /* Sayı Tahmini  App */;
+			targetProxy = 1128C52C278EF54700A04991 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1128C514278EF54300A04991 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1128C515278EF54300A04991 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1128C519278EF54600A04991 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1128C51A278EF54600A04991 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1128C533278EF54700A04991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1128C534278EF54700A04991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1128C536278EF54700A04991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 448H3S9AG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sayı Tahmini  App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tunahan.Say--Tahmini--App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1128C537278EF54700A04991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 448H3S9AG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sayı Tahmini  App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tunahan.Say--Tahmini--App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1128C539278EF54700A04991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 448H3S9AG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tunahan.Say--Tahmini--AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sayı Tahmini  App.app/Sayı Tahmini  App";
+			};
+			name = Debug;
+		};
+		1128C53A278EF54700A04991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 448H3S9AG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tunahan.Say--Tahmini--AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sayı Tahmini  App.app/Sayı Tahmini  App";
+			};
+			name = Release;
+		};
+		1128C53C278EF54700A04991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 448H3S9AG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tunahan.Say--Tahmini--AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sayı Tahmini  App";
+			};
+			name = Debug;
+		};
+		1128C53D278EF54700A04991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 448H3S9AG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tunahan.Say--Tahmini--AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sayı Tahmini  App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1128C506278EF54300A04991 /* Build configuration list for PBXProject "Sayı Tahmini  App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1128C533278EF54700A04991 /* Debug */,
+				1128C534278EF54700A04991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1128C535278EF54700A04991 /* Build configuration list for PBXNativeTarget "Sayı Tahmini  App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1128C536278EF54700A04991 /* Debug */,
+				1128C537278EF54700A04991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1128C538278EF54700A04991 /* Build configuration list for PBXNativeTarget "Sayı Tahmini  AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1128C539278EF54700A04991 /* Debug */,
+				1128C53A278EF54700A04991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1128C53B278EF54700A04991 /* Build configuration list for PBXNativeTarget "Sayı Tahmini  AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1128C53C278EF54700A04991 /* Debug */,
+				1128C53D278EF54700A04991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1128C503278EF54300A04991 /* Project object */;
+}
