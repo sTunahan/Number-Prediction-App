@@ -15,28 +15,29 @@ class ForecastSceen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        randomNumber = Int( arc4random_uniform(100)) // 0 -100 arası rastgele deger uretır.
+        randomNumber = Int( arc4random_uniform(100)) // 0 - 100 random number
         print(randomNumber!)
        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        //incomingValue perform segue dan gelen verı olmuş oluyor.
+        //Data from incomingValue perform segue
         if let incomingValue = sender as? Bool {
             
             if segue.identifier == "guesstoresult" {
                 
-                let pageToGo = segue.destination as! ResultSceen // Bununla dıger sayfadan Nesne Olusturduk
+                let pageToGo = segue.destination as! ResultSceen
                 
                 pageToGo.incomingResult = incomingValue
             }
         }
     }
     
+    //for page transition
     @IBAction func guessButton(_ sender: Any) {
         
-        clue.isHidden = false // ipucu gözukmesı ıcın
+        clue.isHidden = false // for the hint label to appear.
         remainingLifeValue -= 1
         
         
@@ -46,31 +47,31 @@ class ForecastSceen: UIViewController {
                 if remainingLifeValue != 0{
                     
                     if value == randomNumber! {
-                        print("Kazandınız Sayfa degısımı")
                         
-                        let result = true ///Dıger sayfaya gönderılecek olan veri Bilgisi
+                        
+                        let result = true ///data to be sent to the other page
                         performSegue(withIdentifier: "guesstoresult", sender: result)
                     }
                     
                     if value > randomNumber! {
                         clue.text = " Azalt"
-                        remainingLifeText.text = "Kalan Hak : \(remainingLifeValue)"
+                        remainingLifeText.text = "remaining life : \(remainingLifeValue)"
                         
                         
                     }
                     if value < randomNumber!{
                         clue.text = " Arttır"
-                        remainingLifeText.text = "Kalan Hak : \(remainingLifeValue)"
+                        remainingLifeText.text = "remaining life : \(remainingLifeValue)"
                     }
                     
                 }
                 else{
                     
-                    let result = false ///Dıger sayfaya gönderılecek olan veri Bilgisi
+                    let result = false
                     performSegue(withIdentifier: "guesstoresult", sender: result)
                 }
                 
-                textFieldNumber.text = "" // Input sılınmesı ıcın yazılır.
+                textFieldNumber.text = ""
             }
         }
     }

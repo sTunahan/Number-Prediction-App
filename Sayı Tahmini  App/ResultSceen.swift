@@ -19,7 +19,7 @@ class ResultSceen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.hidesBackButton = true  //Navıgationda cıkan back tusunu kapattık
+        self.navigationItem.hidesBackButton = true
 
         print(incomingResult!)
         
@@ -37,7 +37,7 @@ class ResultSceen: UIViewController {
     
     @IBAction func againButton(_ sender: Any) {
         
-        navigationController?.popToRootViewController(animated: true) // Navigation un Başına Döner yanı ılk sayfaya 
+        navigationController?.popToRootViewController(animated: true)
     }
     
     

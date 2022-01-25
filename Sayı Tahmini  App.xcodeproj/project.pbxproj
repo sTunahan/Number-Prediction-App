@@ -18,7 +18,6 @@
 		1128C532278EF54700A04991 /* Say__Tahmini__AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128C531278EF54700A04991 /* Say__Tahmini__AppUITestsLaunchTests.swift */; };
 		1128C53F278EF5A600A04991 /* ForecastSceen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128C53E278EF5A600A04991 /* ForecastSceen.swift */; };
 		1128C541278EF5BB00A04991 /* ResultSceen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128C540278EF5BB00A04991 /* ResultSceen.swift */; };
-		1128C543278EF93900A04991 /* README.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128C542278EF93900A04991 /* README.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		1128C531278EF54700A04991 /* Say__Tahmini__AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Say__Tahmini__AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1128C53E278EF5A600A04991 /* ForecastSceen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastSceen.swift; sourceTree = "<group>"; };
 		1128C540278EF5BB00A04991 /* ResultSceen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSceen.swift; sourceTree = "<group>"; };
-		1128C542278EF93900A04991 /* README.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +112,6 @@
 				1128C51C278EF54600A04991 /* Info.plist */,
 				1128C53E278EF5A600A04991 /* ForecastSceen.swift */,
 				1128C540278EF5BB00A04991 /* ResultSceen.swift */,
-				1128C542278EF93900A04991 /* README.swift */,
 			);
 			path = "Sayı Tahmini  App";
 			sourceTree = "<group>";
@@ -272,7 +269,6 @@
 				1128C53F278EF5A600A04991 /* ForecastSceen.swift in Sources */,
 				1128C50F278EF54300A04991 /* AppDelegate.swift in Sources */,
 				1128C511278EF54300A04991 /* SceneDelegate.swift in Sources */,
-				1128C543278EF93900A04991 /* README.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
